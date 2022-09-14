@@ -1,0 +1,240 @@
+// Header
+.Header{
+    background: transparent;
+    text-align: center;
+    width: 100%;
+    background: #121212;
+    color:blanchedalmond;
+    height: 2.8em;
+    border: 1px solid transparent;
+}
+.Header > a > h1{
+    border: 1px solid transparent;
+    width: 8em;
+    color: gold;
+    margin-left: 20px;
+}
+.Links{
+    border: 1px solid transparent;
+    width: 20em;
+    margin-left: 82%;
+    font-size: 15px;
+    margin-top: -30px;
+}
+.Links > a{
+    color: gold;
+    padding: 2em;
+}
+.Pojetos{
+    display: block;
+    text-align: center;
+    font-size: 50px;
+    color: greenyellow;
+}
+// MakerHome e Home
+.ApiCorpo{
+    margin-top: -4.3em;
+    position: absolute;
+    width: 100%;
+    height: 100em;
+}
+.MakerBox{
+    margin-top: 20px;
+}
+.MakerBoxBody{
+    width: 40%;
+    margin: auto;
+    background: #121212;
+    text-align: center;
+    font-size: 30px;
+    border-radius: 20px;
+}   
+.ImageDi{
+    display: block;
+}
+.ParteMakerNone{
+    display: none;
+}
+.MakerBoxBody:hover .ParteMakerNone{
+    display: block;
+}
+.CorpoMaker{
+    border: 5px solid transparent;
+    height: 95em;
+    overflow: auto;
+}
+.CorpoMaker > h1{
+    font-size: 60px;
+    text-shadow: 2px 2px 2px black;
+}
+.CorpoMaker::-webkit-scrollbar{
+    width: 0px;
+}
+.CorpoMaker > p{
+    border: 1px solid transparent;
+    word-wrap: break-word;
+    width: 80%;
+    margin: auto;
+    font-size: 28px;
+    margin-top: 20px;
+}
+.CorpoMaker > a{
+    font-size: 20px;
+    text-decoration: none;
+}
+.CorpoMaker >a:hover{
+    filter: invert(1);
+}
+.CorpoMaker > img{
+    border-radius: 20px;
+    margin-top: 20px;
+}
+.CorpoMaker > h2{
+    font-size: 30px;
+}
+.HeaderMaker{
+    text-align: center;
+    background: #121212;
+}
+.FooterMaker{
+    text-align: center;
+    background: #121212;
+}
+// Maker
+.InputMaker{
+    text-align: center;
+}
+:is(.InputMaker,.InputColor,.TextareaMaker) > label{
+    color: gold;
+    text-shadow: 2px 2px 2px purple;
+    display: block;
+    font-size: 50px;
+    margin-top: 10px;
+}
+.InputMaker > input{
+    width: 20em;
+    text-align: center;
+    border-radius: 20px;
+    color: goldenrod;
+    font-size: 25px;
+    height: 2em;
+    border: 0px ;
+    background: purple;
+}
+input:focus ,textarea:focus{
+    outline: 3px solid transparent;
+}
+.InputColor{
+    border: 1px solid transparent;
+    text-align: center;
+}
+.InputColor > input{
+    width: 10em;
+    height: 10em;
+    border: 0px ;
+    background: transparent;
+}
+.TextareaMaker{
+    text-align: center;
+}
+.TextareaMaker > textarea{
+    border: 0px ;
+    text-align: center;
+    width: 80%;
+    height: 20em;
+    resize: none;
+    color: gold;
+    border-radius: 20px;
+    background: purple;
+}
+.FormRe > h1{
+    text-align: center;
+    font-size: 60px;
+    color: whitesmoke;
+    text-shadow: 2px 2px 2px #121212;
+}
+.CP{
+    display: block;
+    border: 2px solid white;
+    margin: auto;
+    margin-top: 40px;
+    background: gold;
+    color: purple;
+    font-style: italic;
+    font-size: 20px;
+    cursor: pointer;
+    border-radius: 20px;
+    width: 10em;
+}
+.CP:hover{
+    filter: invert(1);
+}
+.CorpoMakerPlasma{
+    border: 2px solid white;
+    border-radius: 20px;
+    text-align: center;
+    margin: auto;
+    color: gold;
+    margin-top: 10px;
+    width: 60%;
+    background: gray;
+    font-size: 20px;
+}
+.Editar{
+    color: goldenrod;
+    font-size: 30px;
+}
+.Remover{
+    font-size: 30px;
+    background: transparent;
+    border: 0px;
+    color: yellowgreen;
+}
+.MProjetos{
+    text-align: center;
+    font-size: 40px ;
+    color: yellow;
+}
+.MProjetos > a{
+    color: aqua;
+}
+.MProjetos > a:hover{
+    filter: invert(1);
+}
+// Portfolio
+.box{
+    display: block;
+    margin: auto;
+    margin-top: 20px;
+    border: 2px solid red;
+    width: 30%;
+    height: 90%;
+    border-radius: 20px;
+    background-image: linear-gradient(to left ,#fdae38,#4fa3a5,#264265);
+}
+.box > h1{
+    display: block;
+    color: gold;
+    text-shadow: 2px 2px 2px #121212;
+    border: 2px solid transparent;
+    width: 100%;
+    margin-top: 10px;
+    text-align: center;
+    font-size: 50px;
+}
+.box > p{
+    font-size: 40px;
+    width: 100%;
+    margin: auto;
+    color: #121212;
+    text-shadow: 2px 2px 2px goldenrod;
+    text-align: center;
+}
+.EU{
+    display: block;
+    margin-top: 20px;
+    border-radius: 50%;
+    margin: auto;
+    height: 20em;
+    width: 20em;
+}
